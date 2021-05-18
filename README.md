@@ -1,3 +1,5 @@
+<CENTER><img src="http://opendata.atlas.cern/DataAndTools/pictures/ATLASOD.gif" style="width:50%"></CENTER>
+
 # Scientific Computing: Integrating the ATLAS Virtual Machine, ATLAS Open Data Jupyter Notebooks and the Git and Zenodo platforms for Open Science and Reproducibility 
 
 Taking advantage of the open sciene approach of the ATLAS Open Data project and it's tools, for educational purposes, which allow to have an idea of how they perform data analysis in high-energy physics, the project was focused on the automation of the notebooks where these analyzes are carried out and the documentation was expanded to make them easier to understand. In addition, the Git and Zenodo tools were integrated into a program to promote the concepts of open science and reproducibility. 
