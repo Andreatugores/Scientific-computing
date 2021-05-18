@@ -2,6 +2,7 @@
 To guarantee you can run the new ATLAS Open Data Jupyter Notebook found in this repository and the Git&Zenodo Assistant program, you will need to install the Virtual Box, its extension pack and the ATLAS Virtual Machine. The ATLAS VM is designed for running code to analyse and plot datasets from ATLAS Open Data, and the Git&Zenodo was thought as a tool to be used in its linux terminal, so when you run the repository content inside the ATLAS VM, you can be sure that you will get all the functionalities.  
   
 If you do not like reading instructions that much, you will find the useful links below, with videotutorials to install and use the VirtualBox and Virtual Machine.
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3629875.svg)](https://doi.org/10.5281/zenodo.3629875)
 
 
