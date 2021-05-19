@@ -110,7 +110,6 @@ Publishing in open access journals is associated with more citations causing oth
 
 To help ensure the reproducibility of computational results, researchers should convey clear, specific, and complete information about any computational methods and data products that support their published results in order to enable other researchers to repeat the analysis.
 
-Even though the achievement of the objectives was declared at the beginning, a list of suggestions is provided at the end as proposals to continue this work. Sharing science is a job that never ends.
 
 ## Refrence
 [ATLAS Open Data](https://atlas-opendata.web.cern.ch/atlas-opendata/)
