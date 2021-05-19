@@ -17,15 +17,15 @@ To avoid problems while using the program remember to **install the requirements
 
 To get all the files in this repository and use the program, clone the file to your local machine or to the **ATLAS Virtual Machine** by opening the terminal and typing:  
   
-```git clone https://gitmilab.redclara.net/ramosm/git-zenodo-assistant.git```  
+```git clone https://github.com/Andreatugores/Scientific-computing.git```  
   
 If you want to have this repository in your own GitLab account, **fork** the repository and then **clone** it with the https from your **own** account.  
   
 Before running the program you should set your user name and email address. In order to do so, execute these commands:  
   
-```git config --global user.name "yourname"```  
+```git config --global user.name <yourname>```  
   
-```git config --global user.email youremail```  
+```git config --global user.email <youremail>```  
   
 You need to do this only once when you use the ```--global``` option. Git will always use that information for anything you do on that system. If you do not want this to happend, type the commands without the ```--global``` part.
   
