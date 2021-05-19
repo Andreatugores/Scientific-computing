@@ -24,6 +24,23 @@ The other tool, [Zenodo](https://www.openscience.eu/zenodo/), is a general-purpo
 
 In a way, ATLAS Open Data, Git and Zenodo are means to achieve the same endd: promote Open Science and Reproducibility. But as they can be used to focus on different parts of the process of making scientific research, including it's datasets and code, as available as possible, there is a need to integrate all these tools.
 
+## Repository structure
+The repository contains three folders: Documentation, Analysis-notebook, and Git-Zenodo-Assistant. Each of these folders has it's own README where the contents of the folder and the code are explained in detail, in cases where they have code files.
+
+#### Documentation folder:
+The README file in this folder explains how to install the virtual machine, which is essential to run the notebook. Including the links to the ATLAS VM documentation and the already made video tutorials, the information is more reachable and easier to navigate in.
+
+It also has the Data-Documentation file that provides a detailed physical explanation of the datasets with which the notebook works.
+
+#### analysis-notebook folder:
+- README: explains how the notebook works, the files, and the results produced by running it.
+- Jupyter Notebook:on the notebook you will find the code necessary to perform the analyzes and histrograms. The code cells are interspersed with the explanations of the commands in markdown cells.
+- atlas-data: this folder is generated when the notebook is run, the analysis and results are stored in it. 
+- notebooks-info: it contains a .csv file that stores the information and description of the analysis that appears when the notebook is running.
+
+#### git-zenodo-assistant folder:
+The true functionalities of the Git\&Zenodo Assistant Program come from its packages and subpackages. This folder contains the **Git&Zenodo Assistant** program, named *tutorial.py*, and the *requirements.sh* file to install the python libraries needed to run the program. It also contains 4 directories, which correspond to the packages of the program (*git_assistant*, *zenodo_assistant*); a *metadata folder* which contains .csv files with the controlled vocabulary of Zenodo's metadata; a *test_tutorial* folder with a *test.txt* file, to be used for the testing the program, and a *images_tutorial* with screenshots of the GitHub and Zenodo's websites to help you in creating your token.  
+
 ## Problem Statement
 
 Although the ATLAS Open Data website, resources and tools are extensive and well-planned, as the ATLAS Open Data project grows and looks for the improvement of it's contents, looking fot it's flaws and updating it's material has become almost a requirement.
@@ -65,24 +82,6 @@ The code for the program is written in Python3 and it requires the installation 
 The program was designed to run specifically in ATLAS Virtual Machine terminal for better integration, although creating a program compatible in local machines and different operative systems could be desirable.
 
 Note that, because interactivity was considered an important part of the experience, the tkinter module was used to generate windows for: selecting a date from a calendar; choosing a directory or a file from a file browser to get a path; choosing from a list of options. 
-
-## Repository structure
-The repository contains three folders: Documentation, Analysis-notebook, and Git-Zenodo-Assistant. Each of these folders has it's own README where the contents of the folder and the code are explained in detail, in cases where they have code files.
-
-#### Documentation folder:
-The README file in this folder explains how to install the virtual machine, which is essential to run the notebook. Including the links to the ATLAS VM documentation and the already made video tutorials, the information is more reachable and easier to navigate in.
-
-It also has the Data-Documentation file that provides a detailed physical explanation of the datasets with which the notebook works.
-
-#### analysis-notebook folder:
-- README: explains how the notebook works, the files, and the results produced by running it.
-- Jupyter Notebook:on the notebook you will find the code necessary to perform the analyzes and histrograms. The code cells are interspersed with the explanations of the commands in markdown cells.
-- atlas-data: this folder is generated when the notebook is run, the analysis and results are stored in it. 
-- notebooks-info: it contains a .csv file that stores the information and description of the analysis that appears when the notebook is running.
-
-#### git-zenodo-assistant folder:
-The true functionalities of the Git\&Zenodo Assistant Program come from its packages and subpackages. This folder contains the **Git&Zenodo Assistant** program, named *tutorial.py*, and the *requirements.sh* file to install the python libraries needed to run the program. It also contains 4 directories, which correspond to the packages of the program (*git_assistant*, *zenodo_assistant*); a *metadata folder* which contains .csv files with the controlled vocabulary of Zenodo's metadata; a *test_tutorial* folder with a *test.txt* file, to be used for the testing the program, and a *images_tutorial* with screenshots of the GitHub and Zenodo's websites to help you in creating your token.  
-
 
 ## Results
 The notebook allows the user to have a clearer idea of what is happening as each cell is executed. User interactivity is no longer through direct modifications to the code but through inputs where the user is asked to enter any of the available options. By adding information on the physics and on the generated histograms, the user has the opportunity to access the entire analysis process without leaving the notebook, being able to even see the results.
