@@ -1,0 +1,12 @@
+
+
+*************************************************
+This file was uploaded to test the code from the 
+Git&Zenodo Assistant, a program designed as a part
+of the final project: "OP1: Scientific Computing" 
+in LA-CoNGA Physics' Data Science Module.
+This project was done by:
+-Andrea Tugores (UCV, Venezuela)
+-Jonatan Vignatti (UNMSM, Peru)
+-Maria Ramos (ULA, Venezuela)
+*************************************************
