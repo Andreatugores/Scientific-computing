@@ -3,6 +3,8 @@
 
 ## Introduction
 ---
+Once the notebook is running, the **atlas-data** folder will be created where the repository containing the datasets will be cloned. Inside this folder the data and the results obtained from the analysis will be stored.
+
 The framework makes use of the [C++ language](http://www.cplusplus.com/doc/tutorial/) and is interfaced with [ROOT](https://root.cern.ch/), and is available under this [Github link](https://github.com/atlas-outreach-data-tools/atlas-outreach-cpp-framework-13tev). After cloning/downloading the repository, the only things you need to setup are: you need to have the ROOT framework (see [here](https://root.cern.ch/building-root#quick-start) for a quick start on ROOT) and a [gcc compiler](https://gcc.gnu.org/). The current version of the framework was compiled using gcc v6.20 and ROOT v6.10.04.
 
 The 13 TeV ATLAS Open Data are **hosted** on the [CERN Open Data online portal](http://opendata.cern.ch/) and [ATLAS Open Data online portal](http://opendata.atlas.cern). The framework can access the samples in two ways:
