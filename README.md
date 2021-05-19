@@ -111,7 +111,8 @@ To help ensure the reproducibility of computational results, researchers should 
 
 
 ## References
-[ATLAS Open Data](https://atlas-opendata.web.cern.ch/atlas-opendata/)
+  
+[ATLAS Open Data](https://atlas-opendata.web.cern.ch/atlas-opendata/)  
 [ATLAS Open Data Git Repository](https://github.com/atlas-outreach-data-tools)
 
 - National Academies of Sciences, E., Medicine: Reproducibility and Replicability inScience. The National Academies Press, Washington, DC (2019).
