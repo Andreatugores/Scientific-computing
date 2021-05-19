@@ -1,0 +1,7 @@
+*.d
+*.so
+*.pcm
+*.o
+*.out
+Output_*/
+histograms*/
