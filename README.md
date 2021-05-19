@@ -41,6 +41,8 @@ It also has the Data-Documentation file that provides a detailed physical explan
 #### git-zenodo-assistant folder:
 The true functionalities of the Git\&Zenodo Assistant Program come from its packages and subpackages. This folder contains the **Git&Zenodo Assistant** program, named *tutorial.py*, and the *requirements.sh* file to install the python libraries needed to run the program. It also contains 4 directories, which correspond to the packages of the program (*git_assistant*, *zenodo_assistant*); a *metadata folder* which contains .csv files with the controlled vocabulary of Zenodo's metadata; a *test_tutorial* folder with a *test.txt* file, to be used for the testing the program, and a *images_tutorial* with screenshots of the GitHub and Zenodo's websites to help you in creating your token.  
 
+<img src="ATLASOpenData.png" />
+
 ## Problem Statement
 
 Although the ATLAS Open Data website, resources and tools are extensive and well-planned, as the ATLAS Open Data project grows and looks for the improvement of it's contents, looking fot it's flaws and updating it's material has become almost a requirement.
