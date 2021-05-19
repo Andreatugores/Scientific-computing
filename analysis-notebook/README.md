@@ -181,3 +181,31 @@ h_new
 ## Reference 
 ---
 [atlas-outreach-data-tools](https://github.com/atlas-outreach-data-tools/atlas-outreach-cpp-framework-13tev)
+
+## ATLAS datasets citations 
+* * *
+Citations and DOIs for the ATLAS Datasets used in these analyis:
+
+* ATLAS Collaboration (2020). ATLAS 13 TeV samples collection one large-R jet and one lepton, for 2020 Open Data release. CERN Open Data Portal.
+DOI:10.7483/OPENDATA.ATLAS.FRWJ.4ZQU $\newline$ 
+  
+* ATLAS Collaboration (2020). ATLAS 13 TeV samples collection exactly three leptons (electron or muon), for 2020 Open Data release. CERN Open Data Portal. 
+DOI:10.7483/OPENDATA.ATLAS.DN95.JW6T  $\newline$
+  
+* ATLAS Collaboration (2020). ATLAS 13 TeV samples collection exactly one lepton and exactly one hadronic-reconstructed tau, for 2020 Open Data release. CERN Open Data Portal. 
+DOI:10.7483/OPENDATA.ATLAS.W8ZU.YU6N  $\newline$
+  
+* ATLAS Collaboration (2020). ATLAS 13 TeV samples collection exactly one lepton (electron or muon), for 2020 Open Data release. CERN Open Data Portal. 
+DOI:10.7483/OPENDATA.ATLAS.NQ31.Y1OO  $\newline$
+  
+* ATLAS Collaboration (2020). ATLAS 13 TeV samples collection exactly two leptons (electron or muon), for 2020 Open Data release. CERN Open Data Portal. 
+DOI:10.7483/OPENDATA.ATLAS.OHZ7.RFNH  $\newline$
+  
+* ATLAS Collaboration (2020). ATLAS 13 TeV samples collection Gamma-Gamma, for 2020 Open Data release. CERN Open Data Portal.
+ DOI:10.7483/OPENDATA.ATLAS.B5BJ.3SGS $\newline$ 
+   
+* ATLAS Collaboration (2020). ATLAS 13 TeV samples collection with at least two leptons (electron or muon), for 2020 Open Data release. CERN Open Data Portal. 
+DOI:10.7483/OPENDATA.ATLAS.GQ1W.I9VI  $\newline$
+  
+* ATLAS Collaboration (2020). ATLAS 13 TeV samples collection at least four leptons (electron or muon), for 2020 Open Data release. CERN Open Data Portal. 
+DOI:10.7483/OPENDATA.ATLAS.2Y1T.TLGL 
