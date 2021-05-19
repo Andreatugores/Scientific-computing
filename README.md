@@ -6,23 +6,21 @@ Taking advantage of the open science approach of the ATLAS Open Data project, wh
 
 
 ## Overview
-[ATLAS Open Data](https://atlas-opendata.web.cern.ch/atlas-opendata/) is an educational project in High Energy Physics that provides data and tools to high-school, master and ungraduate students, as well as teachers and lectures, to help educate them in physics analysis techniques used in experimental particle physics.
+One of the main data files of [ATLAS Open Data](https://atlas-opendata.web.cern.ch/atlas-opendata/) is the 13 TeV samples, which were released in 2016. As part of the resources available to the public, they are also accompanied by a set of Jupyter notebooks. The ATLAS Open Data Jupyter Notebooks allow data analysis to be performed directly in a web browser by integrating the [ROOT](https://root.cern/about/) framework with the Jupyter Notebook technology, a combination called *ROOTbook*. The frameworks implement the protocols needed for reading the datasets, making an analysis selection, writing out histograms and plotting the results, by only needing to execute the code written in the [Jupyter Notebook](https://jupyter.org/), taking advantage of it's functionalities.
 
-One of the main data files of ATLAS Open Data is the 13 TeV samples, which were released in 2016. As part of the resources available to the public, they are also accompanied by a set of Jupyter notebooks. The ATLAS Open Data Jupyter Notebooks allow data analysis to be performed directly in a web browser by integrating the [ROOT](https://root.cern/about/) framework with the Jupyter Notebook technology, a combination called *ROOTbook*. The frameworks implement the protocols needed for reading the datasets, making an analysis selection, writing out histograms and plotting the results, by only needing to execute the code written in the [Jupyter Notebook](https://jupyter.org/), taking advantage of it's functionalities.
+To understand the project, it is necessary to know some important concepts that have revolutionized the scientific world, such as Open Science and Reproducibility. 
 
-The project is encapsulated in the ATLAS Open Data project, by following and sharing the philosophy behind it. To understand the project, it is necessary to know some important concepts that have revolutionized the scientific world, such as Open Science and Reproducibility. 
-
-Open Science can be defined as a collaborative culture enabled by technology that empowers the open sharing of data, information and knowledge whitin and outside the scientific community to accelerate and make scientific research more accessible. In academic research, researchers are meant to share information in an open manner in order to foster a more scholarly environment. 
+Open Science can be defined as a collaborative culture enabled by technology that empowers the open sharing of data, information and knowledge whitin and outside the scientific community to accelerate and make scientific research more accessible. 
 
 On the other hand, one of the pathways by which the scientific community confirms the validity of a new scientific discovery is by repeating the research that produced it. Reproducibility means computational reproducibility, obtaining consistent computational results using the same input data, computational steps, methods, code and conditions  of analysis.
 
-Whe results are produced by complex computational processes using large volumnes of data, the traditional methods section of a scientific paper is insufficient to convey the necessary information for others to reproduce the results. Additional information related to data, code, models, and computational analysis is needed.
+When results are produced by complex computational processes using large volumnes of data, the traditional methods section of a scientific paper is insufficient to convey the necessary information for others to reproduce the results. Additional information related to data, code, models, and computational analysis is needed.
 
 This is the reason that as the years progress, tools such as Git and Zenodo have emerged to facilitate the pathways to open science and reproducibility.
 
-[Git](https://git-scm.com/) is open-source version control system. Version control systems keep revisions straight, storing the modifications in a central repository. This allows developers to easily collaborate, as they can download a new version of the software, make changes, and upload the newest revision. Every developer can see these new changes, dowload themn and contribute. 
+[Git](https://git-scm.com/) is open-source version control system. Version control systems keep revisions straight, storing the modifications in a central repository. This allows developers to easily collaborate, as they can download a new version of the software, make changes, and upload the newest revision. 
 
-The other tool, [Zenodo](https://www.openscience.eu/zenodo/), is a general-purpose open-access repository developed under the European OpenAIRE program and operated by CERN. It allows researchers to deposit research papers, data sets, research software, reports, and any other research related digital artifacts. For each submission, the data is assigned a Digital Object Identifier(DOI).
+The other tool, [Zenodo](https://www.openscience.eu/zenodo/), is a general-purpose open-access repository. It allows researchers to deposit research papers, data sets, research software, reports, and any other research related digital artifacts. For each submission, the data is assigned a Digital Object Identifier(DOI).
 
 In a way, ATLAS Open Data, Git and Zenodo are means to achieve the same endd: promote Open Science and Reproducibility. But as they can be used to focus on different parts of the process of making scientific research, including it's datasets and code, as available as possible, there is a need to integrate all these tools.
 
@@ -36,7 +34,7 @@ The last update of the ATLAS Open Data Jupyter Notebooks, although containing th
 
 In addition to that, there was a lack of the proper documentation inside the notebooks, both from the physical aspects of the analysis and from the commands in the code. These weak points meant a longer process of learning for the less experienced and knowledgeable users of these Jupyter Notebooks series.
 
-On a side part, even when ATLAS has a platform to create code, run analysis, and get data from their ATLAS Open Data, which is the ATLAS Virtual Machine (VM), this was not fully integrated to the Jupyter Notebooks in the sense that the mention of the ATLAS VM did not describe it in an accurate way, that presents it as an extraordinary tool to run the ATLAS Open Data Jupyter Notebooks and to later created original content from ATLAS Open Data. The ATLAS VM was also not introduced clearly in the original README file. For students who accessed the ATLAS GitHub repository before the ATLAS Open Data website, the information and tutorials of the VM would remain unknown until they navigate to the other sites.
+On a side part, even when ATLAS has a platform to create code, run analysis, and get data from their ATLAS Open Data, which is the ATLAS Virtual Machine (VM), this was not fully integrated to the Jupyter Notebooks in the sense that the mention of the ATLAS VM did not describe it in an accurate way, that presents it as an extraordinary tool to run the ATLAS Open Data Jupyter Notebooks and to later created original content from ATLAS Open Data. 
 
 Finally, even though the philosophy behind ATLAS Open Data is about Open Science and Reproducibility, there is no information available for the user of at least some platforms to make science more shareable and discoverable. Even when Git is a well known software for version control that facilitates scientific reproducibility, not all students are Git users, and not all students are familiar with executing commands in a terminal, or have a complete understanding of the basic git commands.
 
@@ -49,8 +47,6 @@ Starting first with the ATLAS Open Data Jupyter Notebooks, the material to impro
 Considering interactive content as a powerful resource that provides a unique experience to users and manages to retain their attention more efficiently, an approach of making the code more interactive was decided to be the best way to improve the Jupyter Notebooks.
 
 Python packages are the fundamental unit of shareable code in Python, and they make it easy to reuse your code; maintain it and share it with your colleagues and the wider Python community. By taking this into account, being sure that all the needed packages were imported at the beginning of the notebook was an important step to guarantee that the analysis and plotting would take place when their corresponding commands were executed by the user.
-
-Apart from the previous required packages, new libraries were added, such as [pandas](https://pandas.pydata.org/pandas-docs/stable/) and [matplotlib](https://matplotlib.org/), to be able to use DataFrames to store information of the analysis, and to show the histograms that are produced within the same notebook.
 
 To run the code as smoothly as possible, conditionals were included in certain cells, to avoid the repeated execution of commands that were only needed to be used only once.
 
@@ -78,7 +74,7 @@ The README file in this folder explains how to install the virtual machine, whic
 
 It also has the Data-Documentation file that provides a detailed physical explanation of the datasets with which the notebook works.
 
-#### Analysis-notebook folder:
+#### analysis-notebook folder:
 - README: explains how the notebook works, the files, and the results produced by running it.
 - Jupyter Notebook:on the notebook you will find the code necessary to perform the analyzes and histrograms. The code cells are interspersed with the explanations of the commands in markdown cells.
 - atlas-data: this folder is generated when the notebook is run, the analysis and results are stored in it. 
@@ -100,7 +96,7 @@ Considering that the work carried out focuses on promoting, for educational purp
 
 First, the project was presented with extensive documentation. In the repository, the user will find: the citations from the datasets used for the analysis executed in the ATLAS Open Data Jupyter Notebooks;  links to the ATLAS Open data website, the ATLAS GitHub account, and the repositories containing the referenced analysis; links to the GitLab, GitHub and Zenodo websites, their official documentation and the citation and links to the ATLAS Virtual Machine, its tutorials, and to the VirtualBox.
 
-Regarding the Notebook created,  each of its code cells has an explanation that allows the user to understand what will happen when the cell executes, allowing those who do not have programming knowledge to have an idea of what is happening in each step. It was also improved as planned: by getting the general approach to the analysis, the user is provided with the corresponding information and plots of their chosen analysis. 
+Regarding the Notebook created,  each of its code cells has an explanation that allows the user to understand what will happen when the cell executes, allowing those who do not have programming knowledge to have an idea of what is happening in each step. 
 
 In addition, with the Git\&Zenodo Assistant program, the user receives an introduction to the Git and Zenodo tools, an introduction focused on the learning of their functionalities and promoting their use as important steps to the good scientific practices training of the user.
 
@@ -111,10 +107,6 @@ The development of the resources of this project opens an interesting discussion
 When researchers are unable to access information, learning is obstructed, innovation slows and scientific progress is hampered from reaching its full potential. By emphasizing the importance of open science and reproducibility, this situation can be avoided.
 
 Publishing in open access journals is associated with more citations causing other authors to cite more papers because they do not have to pay to read them. Sharing articles on social media and mainstream media outlets helps researchers get noticed, and this can only be done with open publications. Contrary to what some might believe, the peer review process for open access publications is quite rigorous and is now becoming transparent such that the review is published along with the paper, enabling the reader to really see what went into getting the paper published.
-
-By submitting data and research materials to independent repositories, the content of your research is preserved and accessible for the future. This is particularly beneficial when researchers have to respond to requests for data or materials. In addition, when researchers release their data, software, and materials there is clear documentation of the key products of the research, thus increasing the reproducibility of the findings by other researchers. Ultimately, when researchers share data and materials, they value transparency and have confidence in their own research. 
-
-Recent evidence that the open sharing of articles, code, and data is beneficial for researchers has been demonstrated and is shown to be very strong. Every year more studies evaluate the open citation advantages and more funding agencies are announcing policies encouraging, requiring or specifically financing open research. In addition, more tools are available to make the sharing process easier, quicker, and more cost-effective.
 
 To help ensure the reproducibility of computational results, researchers should convey clear, specific, and complete information about any computational methods and data products that support their published results in order to enable other researchers to repeat the analysis.
 
