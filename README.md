@@ -110,7 +110,9 @@ Publishing in open access journals is associated with more citations causing oth
 To help ensure the reproducibility of computational results, researchers should convey clear, specific, and complete information about any computational methods and data products that support their published results in order to enable other researchers to repeat the analysis.
 
 
-## Refrence
+## References
 [ATLAS Open Data](https://atlas-opendata.web.cern.ch/atlas-opendata/)
+[ATLAS Open Data Git Repository](https://github.com/atlas-outreach-data-tools)
 
-- National Academies of Sciences, E., Medicine: Reproducibility and Replicability inScience. The National Academies Press, Washington, DC (2019)
+- National Academies of Sciences, E., Medicine: Reproducibility and Replicability inScience. The National Academies Press, Washington, DC (2019).
+- More specific references can be found in the directory.
